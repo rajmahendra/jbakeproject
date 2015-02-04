@@ -1,0 +1,14 @@
+configurations {
+    provided
+}
+ 
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
+}
+dependencies {
+    provided project(':jbake-api'), project(':jbake-parser')
+    provided  project(':jbake-template')
+    compile libraries.json_simple
+}

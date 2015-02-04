@@ -1,0 +1,6 @@
+
+
+dependencies {
+   compile project(':jbake-api'), libraries.commons_configuration, libraries.commons_io, libraries.asciidoctor
+   compile libraries.pegdown
+}

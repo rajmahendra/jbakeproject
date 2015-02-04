@@ -1,0 +1,19 @@
+
+configurations {
+    provided
+}
+ 
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
+}
+ 
+
+
+dependencies {
+   provided project(':jbake-core')
+    compile  libraries.commons_configuration, libraries.orient_commons, libraries.orientdb_core
+    compile libraries.pegdown, libraries.freemarker, libraries.commons_io, libraries.commons_lang
+    compile libraries.groovy, libraries.groovy_templates, libraries.thymeleaf 
+}

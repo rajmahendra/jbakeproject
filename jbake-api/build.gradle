@@ -1,0 +1,4 @@
+dependencies {
+      compile libraries.commons_configuration, libraries.orient_commons, libraries.orientdb_core
+        compile libraries.commons_io, libraries.commons_lang, libraries.orient_commons 
+}

@@ -1,0 +1,28 @@
+
+
+ext {
+    libraries = [:]
+}
+
+
+libraries.commons_lang = 'commons-lang:commons-lang:2.6'
+libraries.commons_configuration = 'commons-configuration:commons-configuration:1.9@jar'
+libraries.commons_io = 'commons-io:commons-io:2.4'
+libraries.json_simple = 'com.googlecode.json-simple:json-simple:1.1.1'
+libraries.args4j = 'args4j:args4j:2.0.26'
+libraries.freemarker = 'org.freemarker:freemarker:2.3.20'
+libraries.orient_commons = 'com.orientechnologies:orient-commons:1.6.4'
+libraries.orientdb_core = 'com.orientechnologies:orientdb-core:1.6.4'
+libraries.junit = 'junit:junit:4.11'  // test
+libraries.assertj = 'org.assertj:assertj-core:1.7.0'  // test
+libraries.pegdown = 'org.pegdown:pegdown:1.4.2'
+libraries.asciidoctor = 'org.asciidoctor:asciidoctorj:1.5.1'
+libraries.jetty = 'org.eclipse.jetty:jetty-server:8.1.12.v20130726'
+libraries.groovy = 'org.codehaus.groovy:groovy:2.3.6'
+libraries.groovy_templates = 'org.codehaus.groovy:groovy-templates:2.3.6'
+libraries.thymeleaf = 'org.thymeleaf:thymeleaf:2.1.4.RELEASE'
+libraries.slf4j_api = 'org.slf4j:slf4j-api:1.7.6'
+libraries.logback_classic = 'ch.qos.logback:logback-classic:1.1.1'
+libraries.logback_core = 'ch.qos.logback:logback-core:1.1.1'
+
+
